@@ -1,8 +1,6 @@
 ## Interface: 100200
-## Interface-Classic: 11404
-## Interface-Wrath: 30403
 ## Title: AutoLooter
-## Version: @project-version@
+## Version: v3.16
 ## Author: Eliote
 ## Notes: Auto Loot Money and Specific Items
 ## SavedVariables: AutoLooterDB
@@ -18,7 +16,6 @@ Core.lua
 Locales.lua
 
 Util.lua
-AutoLooter.lua
 
 modules\common\ListHelper.lua
 modules\common\ToggleableModulePrototype.lua
@@ -43,3 +40,9 @@ modules\Token.lua
 modules\Type.lua
 modules\WhiteList.lua
 modules\DragonflightOptions.lua
+
+
+
+## Dependencies: Auctionator
+AutoLooter.lua
+Auction.lua
