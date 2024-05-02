@@ -25,7 +25,7 @@ function module.CanLoot(link, icon, sTitle, nQuantity, currencyID, nRarity, lock
 	if AuctionPrice then
 		aPrice = AuctionPrice(link)
 	end
-	if aPrice >= AutoLooter.db.profile.price then
+	if aPrice and aPrice >= AutoLooter.db.profile.price then
 		iPrice = aPrice
 	end
 --------- End Auctionator
